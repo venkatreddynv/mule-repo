@@ -28,6 +28,6 @@ http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/m
     <sub-flow name="content-based-routingSub_Flow">
         <logger message="No language specified. English as default language." level="INFO" doc:name="Logger"/>
         <set-variable variableName="language" value="English" doc:name="Variable"/>
-        <set-payload value="Hello!" doc:name="Set Payload"/>
+        <set-payload value="Hello!!!" doc:name="Set Payload"/>
     </sub-flow>
 </mule>
